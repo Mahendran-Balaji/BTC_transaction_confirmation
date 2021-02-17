@@ -1,5 +1,5 @@
       <?php
-          $getBTCddress = "";
+          $getBTCddress = "1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2";
           
           $getConfirmation=file_get_contents('https://blockchain.info/q/addressbalance/'.$getBTCddress.'?confirmations=3');
           
